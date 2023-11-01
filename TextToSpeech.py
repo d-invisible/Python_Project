@@ -7,11 +7,11 @@ root = Tk()
 root.geometry('350x300')
 root.resizable(0, 0)
 root.config(bg='ghost white')
-root.title('DataFlair - TEXT_TO_SPEECH')
+root.title('Dini - TEXT_TO_SPEECH')
 
 # Heading
 Label(root, text='TEXT TO SPEECH', font='arial 20 bold', bg='white smoke').pack()
-Label(root, text='DataFlair', font='arial 15 bold', bg='white smoke').pack(side=BOTTOM)
+Label(root, text='Dini', font='arial 15 bold', bg='white smoke').pack(side=BOTTOM)
 
 # Label
 Label(root, text='Enter Text', font='arial 15 bold', bg='white smoke').place(x=20, y=60)
